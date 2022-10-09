@@ -1,0 +1,114 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-repeat: no-repeat; /* This code makes the background image not to repeat itself on the screen  */
+    background-attachment: fixed; /* This code makes the background image to be at a spot while scrolling done  */
+    background-position: center;
+    background-image: url(image/hidde\ .PNG);
+    background-color: rgba(174, 169, 243, 0.363);
+    background-size: cover;
+    background-blend-mode: overlay;
+    font-family: 'Poppins', sans-serif;
+    color: whitesmoke;
+}
+
+.header-wrapper {
+    text-align: center;
+    padding: 20px 0px 7px 0px;
+}
+
+p {
+    font-size : 20px;
+    margin-top: -10px;
+}
+
+fieldset {
+    background-color: rgba(45, 37, 61, 0.63);    
+    padding: 50px;
+    margin: auto;  /* This code automatically adjust the fieldset to the center of the screen */
+    width: 50%;  /* This code adjust both side of the width of the fieldset to 50% of the screen */
+    font-size: 18px;
+    border-radius: 5px;
+    border-color: rgba(79, 64, 109, 0.63);
+}
+
+.name-wrapper {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 30px;
+}
+
+.email-wrapper {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 30px;
+}
+
+.age-wrapper {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 30px;
+}
+
+.role-wrapper {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 30px;
+}
+
+.recommendation,
+.areas-to-improve {
+    padding-bottom: 30px;
+}
+
+.favorite_feature {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 30px;
+}
+
+.comment-wrapper {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 30px;
+}
+
+input, select {
+    border-radius: 5px;
+    height: 30px;
+    bottom: 30px;
+    font-size: 16px;
+    color: grey;
+}
+
+label {
+    padding-bottom: 10px;
+}
+
+.input-radio,
+.input-checkbox {
+    display: inline-block;
+    margin-right: 0.625rem;
+    min-height: 1.25rem;
+    min-width: 1.25rem;
+    height: 0;
+}
+
+.input-textarea {
+    min-height: 120px;
+    width: 100%;
+    padding: 0.625rem;
+    resize: vertical;
+}
+
+button {
+    display: block;
+    width: 100%;
+    padding: 0.75rem;
+    background: rgb(120, 207, 120);
+    color: inherit;
+    border-radius: 2px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
